@@ -1,0 +1,14 @@
+@mixin star-center($padding-sides:15px, $padding-tops:25px){
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	padding: $padding-sides $padding-tops;
+}
+
+@mixin star-position($top: 10%, $left:10%){
+	position: absolute;
+	top:$top;
+  	left:$left;
+  	 transform: translate($top, $left);
+	//padding: $padding-sides $padding-tops;
+}

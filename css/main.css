@@ -1,0 +1,390 @@
+* {
+  box-sizing: border-box; }
+
+.container {
+  position: relative;
+  background: white; }
+  .container .esfera {
+    background: #ff9933;
+    border-radius: 50px;
+    height: 100px;
+    width: 100px;
+    padding: 25px; }
+  .container .estrella-1 .star-five {
+    margin: 12.5px 0;
+    position: relative;
+    display: block;
+    color: #ff0000;
+    width: 0px;
+    height: 0px;
+    border-right: 25px solid transparent;
+    border-bottom: 17.5px solid #ff0000;
+    border-left: 25px solid transparent;
+    -moz-transform: rotate(35deg);
+    -webkit-transform: rotate(35deg);
+    -ms-transform: rotate(35deg);
+    -o-transform: rotate(35deg); }
+  .container .estrella-1 .star-five:before {
+    border-bottom: 20px solid #ff0000;
+    border-left: 7.5px solid transparent;
+    border-right: 7.5px solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -11.25px;
+    left: -16.25px;
+    display: block;
+    content: '';
+    -webkit-transform: rotate(-35deg);
+    -moz-transform: rotate(-35deg);
+    -ms-transform: rotate(-35deg);
+    -o-transform: rotate(-35deg); }
+  .container .estrella-1 .star-five:after {
+    position: absolute;
+    display: block;
+    color: #ff0000;
+    top: 0.75px;
+    left: -26.25px;
+    width: 0px;
+    height: 0px;
+    border-right: 25px solid transparent;
+    border-bottom: 17.5px solid #ff0000;
+    border-left: 25px solid transparent;
+    -webkit-transform: rotate(-70deg);
+    -moz-transform: rotate(-70deg);
+    -ms-transform: rotate(-70deg);
+    -o-transform: rotate(-70deg);
+    content: ''; }
+  .container .estrella-2 {
+    position: absolute;
+    top: 25%;
+    left: 10%;
+    transform: translate(25%, 10%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 5px 25px; }
+    .container .estrella-2 .star-five {
+      margin: 10px 0;
+      position: relative;
+      display: block;
+      color: #ff0000;
+      width: 0px;
+      height: 0px;
+      border-right: 20px solid transparent;
+      border-bottom: 14px solid #ff0000;
+      border-left: 20px solid transparent;
+      -moz-transform: rotate(35deg);
+      -webkit-transform: rotate(35deg);
+      -ms-transform: rotate(35deg);
+      -o-transform: rotate(35deg); }
+    .container .estrella-2 .star-five:before {
+      border-bottom: 16px solid #ff0000;
+      border-left: 6px solid transparent;
+      border-right: 6px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -9px;
+      left: -13px;
+      display: block;
+      content: '';
+      -webkit-transform: rotate(-35deg);
+      -moz-transform: rotate(-35deg);
+      -ms-transform: rotate(-35deg);
+      -o-transform: rotate(-35deg); }
+    .container .estrella-2 .star-five:after {
+      position: absolute;
+      display: block;
+      color: #ff0000;
+      top: 0.6px;
+      left: -21px;
+      width: 0px;
+      height: 0px;
+      border-right: 20px solid transparent;
+      border-bottom: 14px solid #ff0000;
+      border-left: 20px solid transparent;
+      -webkit-transform: rotate(-70deg);
+      -moz-transform: rotate(-70deg);
+      -ms-transform: rotate(-70deg);
+      -o-transform: rotate(-70deg);
+      content: ''; }
+  .container .estrella-3 {
+    position: absolute;
+    top: 5%;
+    left: 10%;
+    transform: translate(5%, 10%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 30px 15px 25px; }
+    .container .estrella-3 .star-five {
+      margin: 7.5px 0;
+      position: relative;
+      display: block;
+      color: #ff0000;
+      width: 0px;
+      height: 0px;
+      border-right: 15px solid transparent;
+      border-bottom: 10.5px solid #ff0000;
+      border-left: 15px solid transparent;
+      -moz-transform: rotate(35deg);
+      -webkit-transform: rotate(35deg);
+      -ms-transform: rotate(35deg);
+      -o-transform: rotate(35deg); }
+    .container .estrella-3 .star-five:before {
+      border-bottom: 12px solid #ff0000;
+      border-left: 4.5px solid transparent;
+      border-right: 4.5px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -6.75px;
+      left: -9.75px;
+      display: block;
+      content: '';
+      -webkit-transform: rotate(-35deg);
+      -moz-transform: rotate(-35deg);
+      -ms-transform: rotate(-35deg);
+      -o-transform: rotate(-35deg); }
+    .container .estrella-3 .star-five:after {
+      position: absolute;
+      display: block;
+      color: #ff0000;
+      top: 0.45px;
+      left: -15.75px;
+      width: 0px;
+      height: 0px;
+      border-right: 15px solid transparent;
+      border-bottom: 10.5px solid #ff0000;
+      border-left: 15px solid transparent;
+      -webkit-transform: rotate(-70deg);
+      -moz-transform: rotate(-70deg);
+      -ms-transform: rotate(-70deg);
+      -o-transform: rotate(-70deg);
+      content: ''; }
+  .container .estrella-4 {
+    position: absolute;
+    top: 15% 60%;
+    left: 10%;
+    transform: translate(15% 60%, 10%);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 20px 25px; }
+    .container .estrella-4 .star-five {
+      margin: 7.5px 0;
+      position: relative;
+      display: block;
+      color: #ff0000;
+      width: 0px;
+      height: 0px;
+      border-right: 15px solid transparent;
+      border-bottom: 10.5px solid #ff0000;
+      border-left: 15px solid transparent;
+      -moz-transform: rotate(35deg);
+      -webkit-transform: rotate(35deg);
+      -ms-transform: rotate(35deg);
+      -o-transform: rotate(35deg); }
+    .container .estrella-4 .star-five:before {
+      border-bottom: 12px solid #ff0000;
+      border-left: 4.5px solid transparent;
+      border-right: 4.5px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -6.75px;
+      left: -9.75px;
+      display: block;
+      content: '';
+      -webkit-transform: rotate(-35deg);
+      -moz-transform: rotate(-35deg);
+      -ms-transform: rotate(-35deg);
+      -o-transform: rotate(-35deg); }
+    .container .estrella-4 .star-five:after {
+      position: absolute;
+      display: block;
+      color: #ff0000;
+      top: 0.45px;
+      left: -15.75px;
+      width: 0px;
+      height: 0px;
+      border-right: 15px solid transparent;
+      border-bottom: 10.5px solid #ff0000;
+      border-left: 15px solid transparent;
+      -webkit-transform: rotate(-70deg);
+      -moz-transform: rotate(-70deg);
+      -ms-transform: rotate(-70deg);
+      -o-transform: rotate(-70deg);
+      content: ''; }
+  .container .estrella-5 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 20px 25px; }
+    .container .estrella-5 .star-five {
+      margin: 7px 0;
+      position: relative;
+      display: block;
+      color: #ff0000;
+      width: 0px;
+      height: 0px;
+      border-right: 14px solid transparent;
+      border-bottom: 9.8px solid #ff0000;
+      border-left: 14px solid transparent;
+      -moz-transform: rotate(35deg);
+      -webkit-transform: rotate(35deg);
+      -ms-transform: rotate(35deg);
+      -o-transform: rotate(35deg); }
+    .container .estrella-5 .star-five:before {
+      border-bottom: 11.2px solid #ff0000;
+      border-left: 4.2px solid transparent;
+      border-right: 4.2px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -6.3px;
+      left: -9.1px;
+      display: block;
+      content: '';
+      -webkit-transform: rotate(-35deg);
+      -moz-transform: rotate(-35deg);
+      -ms-transform: rotate(-35deg);
+      -o-transform: rotate(-35deg); }
+    .container .estrella-5 .star-five:after {
+      position: absolute;
+      display: block;
+      color: #ff0000;
+      top: 0.42px;
+      left: -14.7px;
+      width: 0px;
+      height: 0px;
+      border-right: 14px solid transparent;
+      border-bottom: 9.8px solid #ff0000;
+      border-left: 14px solid transparent;
+      -webkit-transform: rotate(-70deg);
+      -moz-transform: rotate(-70deg);
+      -ms-transform: rotate(-70deg);
+      -o-transform: rotate(-70deg);
+      content: ''; }
+  .container .estrella-6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px 15px 25px; }
+    .container .estrella-6 .star-five {
+      margin: 6.5px 0;
+      position: relative;
+      display: block;
+      color: #ff0000;
+      width: 0px;
+      height: 0px;
+      border-right: 13px solid transparent;
+      border-bottom: 9.1px solid #ff0000;
+      border-left: 13px solid transparent;
+      -moz-transform: rotate(35deg);
+      -webkit-transform: rotate(35deg);
+      -ms-transform: rotate(35deg);
+      -o-transform: rotate(35deg); }
+    .container .estrella-6 .star-five:before {
+      border-bottom: 10.4px solid #ff0000;
+      border-left: 3.9px solid transparent;
+      border-right: 3.9px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -5.85px;
+      left: -8.45px;
+      display: block;
+      content: '';
+      -webkit-transform: rotate(-35deg);
+      -moz-transform: rotate(-35deg);
+      -ms-transform: rotate(-35deg);
+      -o-transform: rotate(-35deg); }
+    .container .estrella-6 .star-five:after {
+      position: absolute;
+      display: block;
+      color: #ff0000;
+      top: 0.39px;
+      left: -13.65px;
+      width: 0px;
+      height: 0px;
+      border-right: 13px solid transparent;
+      border-bottom: 9.1px solid #ff0000;
+      border-left: 13px solid transparent;
+      -webkit-transform: rotate(-70deg);
+      -moz-transform: rotate(-70deg);
+      -ms-transform: rotate(-70deg);
+      -o-transform: rotate(-70deg);
+      content: ''; }
+  .container .estrella-7 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 25px 15px 25px; }
+    .container .estrella-7 .star-five {
+      margin: 5.5px 0;
+      position: relative;
+      display: block;
+      color: #ff0000;
+      width: 0px;
+      height: 0px;
+      border-right: 11px solid transparent;
+      border-bottom: 7.7px solid #ff0000;
+      border-left: 11px solid transparent;
+      -moz-transform: rotate(35deg);
+      -webkit-transform: rotate(35deg);
+      -ms-transform: rotate(35deg);
+      -o-transform: rotate(35deg); }
+    .container .estrella-7 .star-five:before {
+      border-bottom: 8.8px solid #ff0000;
+      border-left: 3.3px solid transparent;
+      border-right: 3.3px solid transparent;
+      position: absolute;
+      height: 0;
+      width: 0;
+      top: -4.95px;
+      left: -7.15px;
+      display: block;
+      content: '';
+      -webkit-transform: rotate(-35deg);
+      -moz-transform: rotate(-35deg);
+      -ms-transform: rotate(-35deg);
+      -o-transform: rotate(-35deg); }
+    .container .estrella-7 .star-five:after {
+      position: absolute;
+      display: block;
+      color: #ff0000;
+      top: 0.33px;
+      left: -11.55px;
+      width: 0px;
+      height: 0px;
+      border-right: 11px solid transparent;
+      border-bottom: 7.7px solid #ff0000;
+      border-left: 11px solid transparent;
+      -webkit-transform: rotate(-70deg);
+      -moz-transform: rotate(-70deg);
+      -ms-transform: rotate(-70deg);
+      -o-transform: rotate(-70deg);
+      content: ''; }
+
+.brillo {
+  animation: shine 1.4s infinite linear;
+  -webkit-animation: shine 1.4s infinite linear; }
+
+@keyframes shine {
+  0% {
+    box-shadow: 0 0 26px #f2e602, 0 0 14px #f2e602, 0 0 6px #f2e602, 0 0 2px #f2e602; }
+  50% {
+    box-shadow: 0 0 6px #f2e602, 0 0 4px #f2e602, 0 0 6px #f2e602, 0 0 2px #f2e602, inset 0 0 8px #fff700; }
+  100% {
+    box-shadow: 0 0 26px #f2e602, 0 0 14px #f2e602, 0 0 6px #f2e602, 0 0 2px #f2e602; } }
+@-webkit-keyframes shine {
+  0% {
+    box-shadow: 0 0 6px #f2e602, 0 0 4px #f2e602, 0 0 6px #f2e602, 0 0 2px #f2e602; }
+  50% {
+    box-shadow: 0 0 26px #f2e602, 0 0 14px #f2e602, 0 0 6px #f2e602, 0 0 2px #f2e602, inset 0 0 8px #fff700; }
+  100% {
+    box-shadow: 0 0 6px #f2e602, 0 0 4px #f2e602, 0 0 6px #f2e602, 0 0 2px #f2e602; } }
+
+/*# sourceMappingURL=main.css.map */
